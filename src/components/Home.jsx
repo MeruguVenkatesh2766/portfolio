@@ -4,7 +4,6 @@ import { FaFacebook, FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import lightImg from "../assets/img/myself.jpg";
 import darkImg from "../assets/img/myself9.jpg";
-import svgIcon from "../assets/blob.svg"
 import Button from "../layouts/Button";
 
 const Home = ({ darkMode }) => {
