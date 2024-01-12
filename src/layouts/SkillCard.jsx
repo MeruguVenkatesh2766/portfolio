@@ -8,8 +8,8 @@ const SkillCard = (props) => {
   return (
     <div>
       <div className="flex justify-between mt-2">
-        <h4 className="mt-1">{props.title}</h4>
-        <h4 className="mt-1">{props.val}</h4>
+        <h4 className={`mt-1 ${props.darkMode ? "text-gray-300" : "text-gray-700"}`}>{props.title}</h4>
+        <h4 className={`mt-1 ${props.darkMode ? "text-gray-300" : "text-gray-700"}`}>{props.val}</h4>
       </div>
         <div className="w-full h-2 bg-slate-300 rounded-full mt-1">
           <div

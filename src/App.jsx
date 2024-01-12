@@ -1,4 +1,5 @@
-import React from "react";
+// App.jsx
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,21 +11,27 @@ import Footer from "./components/Footer";
 import Timeline from "./components/Timeline";
 
 const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
-    <div>
-      <Navbar />
+    <div className={darkMode ? "bg-black" : "light-mode"}>
+      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
       <main>
         <div id="home">
-          <Home />
+          <Home darkMode={darkMode} />
         </div>
 
         <div id="about">
-          <About />
+          <About darkMode={darkMode} />
         </div>
 
         <div id="services">
-          <Services />
+          <Services darkMode={darkMode} />
         </div>
 {/* 
         <div id="education">
@@ -40,7 +47,7 @@ const App = () => {
         </div> */}
 
         <div id="timeline">
-          <Timeline />
+          <Timeline darkMode={darkMode} />
         </div>
       </main>
 
