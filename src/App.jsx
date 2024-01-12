@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import Timeline from "./components/Timeline";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
