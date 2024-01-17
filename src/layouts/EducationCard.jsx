@@ -9,7 +9,7 @@ const EducationCard = (props) => {
         <h2 className={`text-xl font-semibold text-center ${darkMode ? "text-white" : ""}`}>{title}</h2>
         {values.map((value, index) => (
           <p
-            className={`px-5 pb-2 pt-2 text-base font-normal ${darkMode ? "text-gray-500 dark:text-gray-400" : "text-gray-500 dark:text-gray-400"} ${index !== values.length - 1 ? " border-b border-gray-700" : ""
+            className={`px-5 pb-2 pt-2 text-base font-normal  ${index !== values.length - 1 && darkMode ? " border-b border-gray-700" : ""
               }`}
             key={index}
           >

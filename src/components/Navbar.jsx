@@ -56,6 +56,16 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             </Link>
 
             <Link
+              to="experience"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className={`hover:${darkMode ? "text-gray-300" : "text-brightColor"} transition-all cursor-pointer`}
+            >
+              Experience
+            </Link>
+
+            <Link
               to="timeline"
               spy={true}
               smooth={true}
@@ -118,6 +128,16 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           >
             Expertise
           </Link>
+
+          <Link
+              to="experience"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className={`hover:${darkMode ? "text-gray-300" : "text-brightColor"} transition-all cursor-pointer`}
+            >
+              Experience
+            </Link>
 
           <Link
             to="timeline"
