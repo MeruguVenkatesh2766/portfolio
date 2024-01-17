@@ -19,3 +19,7 @@ p{
     }
   }
   
+.shadow-md-dark {
+    box-shadow: 2px 4px 5px -2px #79c1ee, 0 2px 4px -1px #83a9f5;
+  }
+  

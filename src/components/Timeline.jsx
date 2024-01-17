@@ -6,7 +6,7 @@ const Timeline = ({ darkMode }) => {
       <h1 className={`text-center font-semibold text-4xl pt-24 lg:pt-16 pb-8 ${darkMode ? "text-white" : "text-gray-900"}`}>
         Timeline
       </h1>
-      <ol className="relative">
+      <ul className="relative list-none p-0">
         <li className={`mt-3 ${darkMode ? "bg-gray-900" : "bg-white"} p-6`}>
           <span className={`absolute flex items-center justify-center mt-2 w-3 h-3 bg-blue-100 rounded-full ring-8 ring-white ${darkMode ? "dark:ring-gray-900 dark:bg-blue-900" : ""}`}>
             <svg className={`w-2.5 h-2.5 text-blue-800 ${darkMode ? "dark:text-blue-300" : ""}`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -15,8 +15,9 @@ const Timeline = ({ darkMode }) => {
           </span>
           <h3 className={`mb-1 pl-8 text-lg font-semibold ${darkMode ? "text-white" : "text-gray-900"}`}>Software Engineer &nbsp;&nbsp;&nbsp;&nbsp;2022 - Present</h3>
           <time className={`block mb-2 pl-8 text-sm font-normal leading-none ${darkMode ? "text-gray-400 dark:text-gray-500" : "text-gray-400 dark:text-gray-500"}`}>Buildbot Technologies Pvt Ltd</time>
-          <p className={`text-base pl-8 font-normal ${darkMode ? "text-gray-500 dark:text-gray-400" : "text-gray-500 dark:text-gray-400"}`}>
-            Proficiently designed and implemented scalable, responsive web and mobile applications using React and React Native. Integrated React Redux for seamless data storage, ensuring uninterrupted user interactions in offline environments. Developed and deployed RESTful APIs, employing Node.js for backend functionality, and optimized database operations using PostgreSQL and TypeORM. Demonstrated cross-platform expertise with successful task management applications in React Native and Kotlin for wear OS.</p>
+          <p className={`mb-4 pl-8 text-base font-normal ${darkMode ? "text-gray-500 dark:text-gray-400" : "text-gray-500 dark:text-gray-400"}`}>
+          The primary focus is on the architecture, development and crafting responsive and seamless web applications using React, coupled with robust state management through React Redux. Expertise extends to RESTful API development using Node.js, ensuring scalable and efficient back-end solutions. Bringing a holistic approach to software engineering, consistently delivering high-quality solutions that prioritize user experience and functionality.
+          </p>
         </li>
         <li className={`mt-3 ${darkMode ? "bg-gray-900" : "bg-white"} p-6`}>
           <span className={`absolute flex items-center justify-center mt-2 w-3 h-3 bg-blue-100 rounded-full ring-8 ring-white ${darkMode ? "dark:ring-gray-900 dark:bg-blue-900" : ""}`}>
@@ -37,7 +38,7 @@ const Timeline = ({ darkMode }) => {
           <h3 className={`mb-1 text-lg pl-8 font-semibold ${darkMode ? "text-white" : "text-gray-900"}`}>Primary and Higher Education</h3>
           <p className={`text-base pl-8 font-normal ${darkMode ? "text-gray-500 dark:text-gray-400" : "text-gray-500 dark:text-gray-400"}`}>I have completed my higher secondary education with major subjects as Physics, Chemistry & Maths with 96 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
         </li>
-      </ol>
+      </ul>
     </div>
   );
 };

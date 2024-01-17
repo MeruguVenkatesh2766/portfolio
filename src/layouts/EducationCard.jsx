@@ -1,24 +1,21 @@
 import React from "react";
 
 const EducationCard = (props) => {
+  const { title, values, darkMode } = props;
+
   return (
-    <div className=" flex flex-col lg:flex-row py-4">
-      <div className=" w-full lg:w-2/4">
-        <h2 className=" font-semibold">{props.title}</h2>
-        <div className="mt-2">
-          <p>Student</p>
-          <p>Jan 1016 - Dec 2021</p>
-        </div>
-      </div>
-      <div>
-        <h2 className=" font-semibold mt-2 lg:mt-0">Certificate of web training</h2>
-        <p className=" mt-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          dolor incidunt quo, nulla dolore molestiae esse animi hic, placeat
-          velit omnis quasi officia suscipit. Natus dignissimos reiciendis ut
-          assumenda corrupti?
-        </p>
-        <div className=" bg-slate-500 w-full h-0.5 mt-2"></div>
+    <div className={`flex flex-col items-center ${darkMode ? "bg-gray-900" : "bg-white"} transition-all hover:-translate-y-2 w-full py-5 gap-2 cursor-pointer rounded-md ${darkMode ? "shadow-md-dark" : "shadow-md"}`}>
+      <div style={{ minHeight: '260px' }} className="w-full">
+        <h2 className={`text-xl font-semibold text-center ${darkMode ? "text-white" : ""}`}>{title}</h2>
+        {values.map((value, index) => (
+          <p
+            className={`px-5 pb-2 pt-2 text-base font-normal ${darkMode ? "text-gray-500 dark:text-gray-400" : "text-gray-500 dark:text-gray-400"} ${index !== values.length - 1 ? " border-b border-gray-700" : ""
+              }`}
+            key={index}
+          >
+            {value}
+          </p>
+        ))}
       </div>
     </div>
   );

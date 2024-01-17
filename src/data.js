@@ -32,5 +32,27 @@ const skillColors = {
     },
 };
 
+const techstackDescriptions = {
+    Frontend: [
+      "Proficiently designed and implemented scalable, responsive web applications using cutting-edge front-end technologies, notably React.",
+      "Focused on delivering a superior user experience through intuitive interfaces and enhanced usability.",
+      "Successfully leveraged React Redux for robust data storage, ensuring seamless user interactions even in offline environments.",
+    ],
+    Backend: [
+      "Utilized Node.js to create a robust back-end infrastructure, ensuring the smooth integration of REST APIs.",
+      "Developed and deployed RESTful APIs to facilitate seamless data communication between front-end and back-end applications.",
+    ],
+    Database: [
+      "Skillfully utilized PostgreSQL in conjunction with TypeORM to implement efficient and reliable database models.",
+      "Implements MongoDB for enhanced data management, retrieval, and operational functions.",
+      "Developed operational functions for queries, optimizing data management and retrieval processes.",
+    ],
+    CrossPlatform: [
+      "Successfully crafted a mobile task management application using React Native, showcasing cross-platform development prowess.",
+      "Demonstrated versatility by creating a wear OS application for task management using Kotlin.",
+    ],
+  };
+  
 
-export { expertiseDescriptions, skillPercentage, skillColors };
+
+export { expertiseDescriptions, skillPercentage, skillColors, techstackDescriptions };

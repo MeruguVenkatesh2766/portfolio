@@ -7,7 +7,7 @@ const ServicesCard = ({ icon, title, para, darkMode }) => {
         <span>{icon}</span>
       </div>
       <h2 className={`text-xl font-semibold ${darkMode ? "text-white" : ""}`}>{title}</h2>
-      <p style={{ minHeight: '120px' }} className={`px-5 ${darkMode ? "text-gray-300" : "text-black"}`}>{para}</p>
+      <p style={{ minHeight: '120px' }} className={`px-5 text-base font-normal ${darkMode ? "text-gray-500 dark:text-gray-400" : "text-gray-500 dark:text-gray-400"}`}>{para}</p>
     </div>
   );
 };

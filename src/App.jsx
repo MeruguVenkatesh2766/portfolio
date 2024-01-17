@@ -33,14 +33,14 @@ const App = () => {
         <div id="services">
           <Services darkMode={darkMode} />
         </div>
-{/* 
-        <div id="education">
+
+        {/* <div id="education">
           <Education />
-        </div>
+        </div> */}
 
         <div id="experience">
-          <Experience />
-        </div> */}
+          <Experience darkMode={darkMode} />
+        </div>
 
         {/* <div id="portfolio">
           <Portfolio />
