@@ -6,7 +6,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Timeline from "./components/Timeline";
 

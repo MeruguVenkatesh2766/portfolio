@@ -25,11 +25,12 @@ const About = ({ darkMode }) => {
         <div className="mb-10 flex flex-col gap-4 md:flex-row md:flex-wrap md:gap-12">
           <div className="mb-5 flex flex-col gap-4 flex-1 md:w-1/3">
             <h2 className={`${darkMode ? "text-gray-300" : "text-gray-700"} text-2xl font-semibold`}>Language Proficiency</h2>
-            <SkillCard title="C++" width={skillPercentage[85]} val={skillPercentage[85]} colors={skillColors.column1} darkMode={darkMode}/>
+            <SkillCard title="Python" width={skillPercentage[85]} val={skillPercentage[85]} colors={skillColors.column1} darkMode={darkMode}/>
             <SkillCard title="Html" width={skillPercentage[90]} val={skillPercentage[90]} colors={skillColors.column1} darkMode={darkMode}/>
             <SkillCard title="CSS" width={skillPercentage[90]} val={skillPercentage[90]} colors={skillColors.column1} darkMode={darkMode}/>
             <SkillCard title="JavaScript" width={skillPercentage[85]} val={skillPercentage[85]} colors={skillColors.column1} darkMode={darkMode}/>
             <SkillCard title="TypeScript" width={skillPercentage[70]} val={skillPercentage[70]} colors={skillColors.column1} darkMode={darkMode}/>
+            <SkillCard title="C++" width={skillPercentage[85]} val={skillPercentage[85]} colors={skillColors.column1} darkMode={darkMode}/>
           </div>
 
           <div className="mb-5 flex flex-col gap-4 flex-1 md:w-1/3">
@@ -37,7 +38,7 @@ const About = ({ darkMode }) => {
             <SkillCard title="React" width={skillPercentage[90]} val={skillPercentage[90]} colors={skillColors.column2} darkMode={darkMode}/>
             <SkillCard title="Redux" width={skillPercentage[85]} val={skillPercentage[85]} colors={skillColors.column2} darkMode={darkMode}/>
             <SkillCard title="React Native" width={skillPercentage[80]} val={skillPercentage[80]} colors={skillColors.column2} darkMode={darkMode}/>
-            <SkillCard title="Angular" width={skillPercentage[75]} val={skillPercentage[75]} colors={skillColors.column2} darkMode={darkMode}/>
+            <SkillCard title="Angular" width={skillPercentage[70]} val={skillPercentage[70]} colors={skillColors.column2} darkMode={darkMode}/>
             <SkillCard title="Nodejs" width={skillPercentage[80]} val={skillPercentage[80]} colors={skillColors.column2} darkMode={darkMode}/>
             <SkillCard title="Material UI & Ant design" width={skillPercentage[90]} val={skillPercentage[90]} colors={skillColors.column2} darkMode={darkMode}/>
           </div>

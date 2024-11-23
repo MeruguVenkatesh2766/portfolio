@@ -1,9 +1,10 @@
 const expertiseDescriptions = {
-    "front-end": "I specialize in crafting responsive web applications using HTML, CSS, and JavaScript. My expertise extends to frameworks like React and Angular, resulting in a slick and user-friendly interface that truly stands out.",
-    "back-end": "I bring experience in building server-side applications using an efficient tech-stack like Node.js. I am skilled in integrating REST APIs for seamless data communication.",
-    dsa: "I have a strong grasp of the fundamentals of data structures and algorithms. Whether it's problem-solving or algorithmic magic, you can count on me for a solid understanding and some code wizardry!",
-    freelancer: "In my freelancing endeavors, I offer a versatile skill set. From crafting engaging front-end experiences to developing robust back-end solutions, I am dedicated to delivering my best work to meet and exceed your expectations."
-}
+    "front-end": "I excel in developing responsive and dynamic web applications using HTML, CSS, and JavaScript. My expertise includes working with modern frameworks such as React and Angular to create intuitive and visually appealing user interfaces.",
+    "back-end": "I have experience in building robust server-side applications using technologies like Node.js and Python. With strong skills in designing RESTful APIs, I ensure seamless data communication and integration across systems.",
+    "dsa": "I possess a solid understanding of data structures and algorithms, enabling efficient problem-solving and optimized solutions. My analytical skills ensure high-quality, well-structured code for complex challenges.",
+    "freelancer": "In my freelancing journey, I have delivered end-to-end solutions, combining engaging front-end designs with reliable back-end architectures. My commitment is to provide high-quality work that aligns with and surpasses client expectations."
+};
+
 
 const skillPercentage = {
     100: '100%',
